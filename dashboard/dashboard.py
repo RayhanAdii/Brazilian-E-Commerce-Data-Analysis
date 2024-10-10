@@ -31,11 +31,11 @@ st.write("""
 """)
 
 # Import Dataset
-city_payment_sum_sorted = pd.read_csv('../data/processed/city_payment_sum_sorted.csv')
-df_highest = pd.read_csv('../data/processed/df_highest.csv')
-geojson_file = '../data/brazil-states.geojson'
+city_payment_sum_sorted = pd.read_csv('/data/processed/city_payment_sum_sorted.csv')
+df_highest = pd.read_csv('/data/processed/df_highest.csv')
+geojson_file = '/data/brazil-states.geojson'
 gdf = gpd.read_file(geojson_file)
-product_category_counts = pd.read_csv('../data/processed/product_category_counts.csv')
+product_category_counts = pd.read_csv('/data/processed/product_category_counts.csv')
 
 # ==============================
 # Pertanyaan Bisnis 1
